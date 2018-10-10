@@ -89,10 +89,10 @@ struct rte_acl_classifier_results {
 	int results[RTE_ACL_MAX_CATEGORIES];
 };
 
-struct rte_acl_match_results {
-	uint32_t results[RTE_ACL_MAX_CATEGORIES];
-	int32_t priority[RTE_ACL_MAX_CATEGORIES];
-};
+//struct rte_acl_match_results {
+//	uint32_t results[RTE_ACL_MAX_CATEGORIES];
+//	int32_t priority[RTE_ACL_MAX_CATEGORIES];
+//};
 
 struct rte_acl_node {
 	uint64_t node_index;  /* index for this node */
